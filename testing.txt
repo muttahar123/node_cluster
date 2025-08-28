@@ -1,0 +1,8 @@
+testing of single and multi core by running cluster and single core file
+//node {file_Name}
+
+for check of load run this command in another terminal
+
+autocannon -c 100 -d 10 http://localhost:3000
+
+//artillery quick --count 20 -n 50 http://localhost:3000
